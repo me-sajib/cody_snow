@@ -24,7 +24,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex h-screen overflow-hidden bg-background">
+          <div className="bg-background">
             {children}
           </div>
         </ThemeProvider>
